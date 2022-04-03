@@ -379,8 +379,6 @@ def process_cust(index, loc_map):
 
 
 def main():
-    for c_key in to_split.keys():
-        split_multi(c_key)
 
     for k, v in cust_data.get('customers').items():
         for loc_map in v.get('loc_ID_map').values():
@@ -399,8 +397,6 @@ NOTES
 need better method for "daily count", or just remove? -- //90 is too low in some cases, probably because we're only getting a few weeks or month of data
 
 psql password not working/ not enabled? (locally, not sure about prod)
-
-put split multi in try/except
 
 postgres: func to remove q entries after 120 or 150 days old?
 

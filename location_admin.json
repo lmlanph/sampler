@@ -1,0 +1,91 @@
+{
+    "customers": {
+        "c1": {
+            "location": "Demo Location 1",
+            "max_invites_loc": 8,
+            "loc_ID_header": null,
+            "loc_ID_map": {
+                "1": {
+                    "fileID": "ABCLOCATION1",
+                    "MXMID": "ABCLOCATION1",
+                    "invite_adjust": 0
+                }
+            },
+            "Last name": "Last Name",
+            "First name": "First Name",
+            "Age": "Date of Birth",
+            "Gender": "Gender",
+            "Member Id": "Member #",
+            "Phone": "Home Phone #",
+            "Email": "Email Address",
+            "Member Status": null,
+            "Frequent Club Id": null,
+            "Date Joined": "Join Date",
+            "Last visit date": "Last Use Date",
+            "Membership Type": "Member Type",
+            "Home Club Id": null,
+            "time_format_birthday": "%m/%d/%Y",
+            "time_format_join_date": "%m/%d/%y",
+            "time_format_lastVisit": "%m/%d/%Y %I:%M:%S %p",
+            "dayfirst": false,
+            "header_check": [
+                "First Name",
+                "Last Name",
+                "Date of Birth",
+                "Gender",
+                "Member #",
+                "Home Phone #",
+                "Email Address",
+                "Join Date",
+                "Cancel Date",
+                "Expiration Date",
+                "Member Type",
+                "Last Use Date",
+                "A/R Total"
+            ],
+            "notes": "Add membership type to feed file?"
+        },
+        "c2": {
+            "location": "Demo Location 2",
+            "max_invites_loc": 8,
+            "loc_ID_header": null,
+            "loc_ID_map": {
+                "1": {
+                    "fileID": "ABCLOCATION2",
+                    "MXMID": "ABCLOCATION2",
+                    "invite_adjust": 0
+                }
+            },
+            "Last name": "Last name",
+            "First name": "First name",
+            "Age": "Age",
+            "Gender": "Gender",
+            "Member Id": "Member ID",
+            "Phone": "Mobile",
+            "Email": "Email",
+            "Member Status": "Member Status",
+            "Frequent Club Id": null,
+            "Date Joined": "Date Joined",
+            "Last visit date": "Last visit date",
+            "Membership Type": null,
+            "Home Club Id": null,
+            "time_format_birthday": null,
+            "time_format_join_date": "%m.%d.%y",
+            "time_format_lastVisit": "%m.%d.%y",
+            "dayfirst": false,
+            "header_check": [
+                "Last name",
+                "First name",
+                "Age",
+                "Gender",
+                "Member ID",
+                "Mobile",
+                "Email",
+                "Member Status",
+                "Date Joined",
+                "Last visit date"
+            ],
+            "notes": "works on v34"
+        }
+    }
+}

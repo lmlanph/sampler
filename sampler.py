@@ -396,7 +396,7 @@ NOTES
 
 need better method for "daily count", or just remove? -- //90 is too low in some cases, probably because we're only getting a few weeks or month of data
 
-psql password not working/ not enabled? (locally, not sure about prod)
+psql password not working/ not enabled? (locally)
 
 postgres: func to remove q entries after 120 or 150 days old?
 
